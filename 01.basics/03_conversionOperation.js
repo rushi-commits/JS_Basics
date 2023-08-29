@@ -1,3 +1,4 @@
+/*
 let score = "33";
 
 console.log(typeof score);
@@ -23,3 +24,26 @@ console.log(Boolean(num4)); // output will be false
 
 let stringNumber = 33;
 console.log(typeof String(stringNumber));
+
+*/
+
+// ************************OPRATORS********************************
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+console.log(2 + "2"); //22
+console.log("2" + 2); //22
+console.log(2 + 2 + "2"); //42
+console.log("2" + 2 + 2); //222
+
+let number = 5;
+console.log(number++); //5
+console.log(++number); //7
