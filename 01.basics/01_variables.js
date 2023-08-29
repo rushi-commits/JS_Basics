@@ -6,6 +6,7 @@ let accountState;
 accountState = "bjajd";
 // accountId = 2; //can not able to reassigne const
 console.log(accountId);
+
 console.table([
   accountId,
   accountEmail,
